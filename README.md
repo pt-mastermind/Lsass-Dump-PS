@@ -5,7 +5,7 @@ The LsassDumper is a Mimikatz alternative tool used for credential dumping creat
 
 # How to Use
 
-* step 1: Edit the script: Chanage the path to the file (file parameter)
+* step 1: Edit the script: Chanage the path to the file and the file name (foo.docx).
 ```C#
  public static void RunMe(int procId)
         {
