@@ -41,4 +41,4 @@ mimikatz # sekurlsa::logonpasswords
 ```
 
 
-If you want to choose another web page go to: /opt/WifiMaster/program_files/server and then put there the page you want to and name it " index.html "
+
