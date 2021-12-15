@@ -25,7 +25,7 @@ The LsassDumper is a Mimikatz alternative tool used for credential dumping creat
             }
  
 ```
-* step 2: Configre the `lsass.exe` process id.
+* step 2: Configre the `lsass.exe` process id and run the script (some cases `NT AUTHORITY\SYSTEM` is required).
 ```
  [GoodMod.Dump]::RunMe(16048)
 ```
